@@ -1,0 +1,13 @@
+.card-body {
+    background-color: rgb(240, 240, 240);
+}
+
+.jumbotron {
+    border-radius: 0;
+}
+
+.employee-card {
+    box-shadow: 7px 7px 7px rgb(167, 165, 165);
+    margin: 2rem;
+    border: none;
+}
