@@ -12,7 +12,11 @@ teamArray = [];
 
 
 
+
 function runApp () {
+
+
+
 
   function createTeam () {
     inquirer.prompt([{
@@ -65,6 +69,9 @@ function addManager() {
       message: "What is the office number?"
     }
 
+
+
+
   ]).then(answers => {
     const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOfficeNumber);
     teamArray.push(manager);
@@ -72,6 +79,7 @@ function addManager() {
   });
 
 }
+
 
 
 function addEngineer() {
@@ -101,6 +109,7 @@ function addEngineer() {
         message: "What is their GitHub username?"
       }
 
+
     ]).then(answers => {
       const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.engineerGithub);
       teamArray.push(engineer);
@@ -109,9 +118,11 @@ function addEngineer() {
 
   }
 
+
   function addIntern() {
     inquirer.prompt([
       
+
       {
         type: "input",
         name: "internName",
@@ -136,6 +147,7 @@ function addEngineer() {
         message: "Which University does the employee go to?"
       }
 
+
     ]).then(answers => {
       const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool);
       teamArray.push(intern);
@@ -145,12 +157,14 @@ function addEngineer() {
   }
 
 
+
 function htmlBuilder () {
     console.log("Team created!")
 
     fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8")
 
 }
+
 
 createTeam();
 
