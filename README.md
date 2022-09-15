@@ -51,7 +51,7 @@ THEN I exit the application, and the HTML is generated
 
 ## Screenshots
 
-
+![profile generator](https://user-images.githubusercontent.com/103548864/190291341-d4ddf270-c54a-46e0-9243-1672c0ff9017.png)
 
 
 ## Author
