@@ -61,8 +61,10 @@ THEN I exit the application, and the HTML is generated
 
 ## Deployment
 
+Video: [Untitled_ Sep 14, 2022 8_31 PM.webm](https://user-images.githubusercontent.com/103548864/190307920-31ce539b-1b8f-4360-b2df-3aa09986bd76.webm)
 
-Github: 
+
+Github: https://github.com/Purplepenguin67/team-profile-generator
 
 
 ## Running Tests
