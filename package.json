@@ -19,10 +19,10 @@
     "homepage": "https://github.com/Purplepenguin67/profile-generator",
     "dependencies": {
         "bootstrap": "^5.2.1",
-        "inquirer": "^9.1.1"
+        "inquirer": "^6.3.1",
+        "node-fetch": "^2.6.1"
     },
     "devDependencies": {
         "jest": "^29.0.3"
     }
 }
-
